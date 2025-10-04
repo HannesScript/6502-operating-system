@@ -1,6 +1,6 @@
 # 65c02 Computer OS
 
-Hi there! This is an open source operating system for [Ben Eater's 6502 Computer](https://eater.net/6502). This OS is written in C and some 6502 Assembly and compiled + assembled with the cc65 compiler using it's c**l**65 compiler and assembler. For building the Os just run the `make.bat` file on Windows on Linux and MacOS you just have to copy the cl65 command inside.
+Hi there! This is an open source operating system for [Ben Eater's 6502 Computer](https://eater.net/6502). This OS is written in C and some 6502 Assembly and compiled + assembled with the cc65 compiler using it's compiler and assembler. For building the OS just run the `make.bat` file on Windows, on Linux and MacOS you just have to copy the commands inside and run them. Please make sure that all the file references are correct when using Linux or MacOS!
 
 ## Specialitys
 

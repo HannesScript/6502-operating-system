@@ -1,0 +1,5 @@
+build/
+.vscode/
+*.o
+HOW_EVERYTHING_IS_CONNECTED.drawio
+include/
