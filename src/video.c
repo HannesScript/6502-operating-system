@@ -60,7 +60,4 @@ void video_send_row() {
         // No Op to give the video hardware time to process the byte
         __asm__("nop");
     }
-
-    // Here you would send video_front_buffer to the actual video hardware
-    // This is platform-specific and not implemented in this example
 };
