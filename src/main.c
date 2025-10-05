@@ -6,7 +6,12 @@ void video_send_row();
 int main(void) {
     // Initialize the video subsystem and draw a line of text
     video_init();
-    add_text(0, 0, "Hello, World!");
-    video_send();
+    
+
+    // Infinite loop
+    while (1) {
+        
+    }
+
     return 0;
 }

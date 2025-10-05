@@ -39,33 +39,35 @@ uint8_t character_set[128][6] = {
     {0b10001000, 0b01010000, 0b00100000, 0b00100000, 0b01010000, 0b10001000}, // 'X'
     {0b10001000, 0b01010000, 0b00100000, 0b00100000, 0b00100000, 0b00100000}, // 'Y'
     {0b11111000, 0b00001000, 0b00010000, 0b00100000, 0b01000000, 0b11111000}, // 'Z'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '!'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '.'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // ','
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '?'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // ';'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // ':'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '('
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // ')'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '1'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '2'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '3'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '4'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '5'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '6'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '7'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '8'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '9'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '0'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '+'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '-'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '/'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '*'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '='
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '"'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '$'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '€'
-    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '&'
+    {0b10000000, 0b10000000, 0b10000000, 0b10000000, 0b00000000, 0b10000000}, // '!'
+    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b10000000}, // '.'
+    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b10000000, 0b10000000}, // ','
+    {0b01100000, 0b10010000, 0b00100000, 0b00100000, 0b00000000, 0b00100000}, // '?'
+    {0b00000000, 0b00000000, 0b10000000, 0b00000000, 0b10000000, 0b10000000}, // ';'
+    {0b00000000, 0b00000000, 0b10000000, 0b00000000, 0b10000000, 0b00000000}, // ':'
+    {0b01000000, 0b10000000, 0b10000000, 0b10000000, 0b10000000, 0b01000000}, // '('
+    {0b00010000, 0b00001000, 0b00001000, 0b00001000, 0b00001000, 0b00010000}, // ')'
+    {0b11100000, 0b00100000, 0b00100000, 0b00100000, 0b00100000, 0b11111000}, // '1'
+    {0b01110000, 0b10001000, 0b00001000, 0b01110000, 0b10000000, 0b11111000}, // '2'
+    {0b11110000, 0b00001000, 0b00110000, 0b00001000, 0b00001000, 0b11110000}, // '3'
+    {0b00100000, 0b01000000, 0b10100000, 0b11110000, 0b00100000, 0b11111000}, // '4'
+    {0b11111000, 0b10000000, 0b11110000, 0b00001000, 0b10001000, 0b01110000}, // '5'
+    {0b01110000, 0b10000000, 0b11110000, 0b10001000, 0b10001000, 0b01110000}, // '6'
+    {0b11111000, 0b00001000, 0b00010000, 0b00100000, 0b01000000, 0b10000000}, // '7'
+    {0b01110000, 0b10001000, 0b01110000, 0b10001000, 0b10001000, 0b01110000}, // '8'
+    {0b01110000, 0b10001000, 0b10001000, 0b01111000, 0b00001000, 0b01110000}, // '9'
+    {0b01110000, 0b10011000, 0b10101000, 0b11001000, 0b10001000, 0b01110000}, // '0'
+    {0b00100000, 0b00100000, 0b11111000, 0b00100000, 0b00100000, 0b00000000}, // '+'
+    {0b00000000, 0b00000000, 0b11111000, 0b00000000, 0b00000000, 0b00000000}, // '-'
+    {0b00010000, 0b00010000, 0b00100000, 0b00100000, 0b01000000, 0b01000000}, // '/'
+    {0b00000000, 0b01010000, 0b00100000, 0b01010000, 0b00000000, 0b00000000}, // '*'
+    {0b00000000, 0b01110000, 0b00000000, 0b01110000, 0b00000000, 0b00000000}, // '='
+    {0b01010000, 0b01010000, 0b00000000, 0b00000000, 0b00000000, 0b00000000}, // '"'
+    {0b00100000, 0b01110000, 0b10100000, 0b01110000, 0b00101000, 0b01110000}, // '$'
+    {0b00110000, 0b01001000, 0b11100000, 0b11100000, 0b01001000, 0b00110000}, // '€'
+    {0b01110000, 0b10000000, 0b01111000, 0b10010000, 0b10010000, 0b01100000}, // '&'
+    {0b01010000, 0b11111000, 0b01010000, 0b11111000, 0b01010000, 0b01010000}, // '#'
+    {0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b11111000}, // '_'
 };
 
 /////////////////////////////////////////////////////////
@@ -114,40 +116,45 @@ void video_init(void) {
 // where each byte represents one vertical column and the low CHAR_H bits
 // correspond to pixels from top (bit0) to bottom (bit CHAR_H-1).
 static void render_text_row_to_buffer(int text_row) {
-    // Clear buffer
+    int col, bx, py, x;
+    unsigned char c;
+    int start_x;
+    uint8_t const *bitmap;
+    uint8_t colbits;
+    const int top_padding = 1; // one pixel room above each character
+
+    // Clear buffer (entire strip for this text row)
     memset(video_buffer, 0, sizeof(video_buffer));
 
-    // Vertical pixel offset within the buffer for the first (top) pixel of this text row.
-    // We treat the buffer rows 0..CHAR_H-1 as the character pixels and row CHAR_H as the spacing row.
-    // For each text column, map its CHAR_W columns into screen X coordinates.
-    int col;
+    // For each text column in this row, map character columns to screen X coordinates.
     for (col = 0; col < TEXT_COLS; ++col) {
-        unsigned char c = (unsigned char)texts[text_row][col];
+        c = (unsigned char)texts[text_row][col];
         if (c == 0) continue; // empty cell
 
-        // Starting X position for this character on the screen:
-        // one pixel left margin inside each cell is accounted by adding 0 (leftmost pixel of cell).
-        // If a 1-pixel left padding is desired, add +1 here.
-        int start_x = col * (CHAR_W + COL_SPACING);
+        // Starting X position for this character on the screen.
+        // Keep existing column spacing; the cell's right-most pixel is left unused
+        // so there will be a one-pixel room to the right of the glyph.
+        start_x = col * (CHAR_W + COL_SPACING);
 
-        // Access character bitmap: 5 columns per character
-        // character_set is declared elsewhere as uint8_t character_set[128][5];
-        uint8_t const *bitmap = character_set[(c < 128) ? c : 0];
+        // Access character bitmap: CHAR_W columns per character
+        bitmap = character_set[(c < 128) ? c : 0];
 
-        int bx;
         for (bx = 0; bx < CHAR_W; ++bx) {
-            int x = start_x + bx;
+            x = start_x + bx;
             if (x < 0 || x >= SCREEN_WIDTH) continue;
 
-            uint8_t colbits = bitmap[bx]; // low CHAR_H bits are used
-            int py;
+            colbits = bitmap[bx]; // low CHAR_H bits are used
             for (py = 0; py < CHAR_H; ++py) {
                 if (colbits & (1u << py)) {
-                    // Set pixel ON. Use 0xFF for "on" pixel, 0x00 for off.
-                    video_buffer[py * SCREEN_WIDTH + x] = 0xFF;
+                    // Apply top padding by offsetting the vertical write by top_padding.
+                    // This places one blank pixel row above each character.
+                    int vy = (py + top_padding);
+                    if (vy >= 0 && vy < (CHAR_H + ROW_SPACING)) {
+                        video_buffer[vy * SCREEN_WIDTH + x] = 0xFF;
+                    }
                 }
             }
-            // COL_SPACING pixels (if any) remain zero/blank automatically
+            // explicit right padding: the column at start_x + CHAR_W remains unused/blank
         }
     }
 }
@@ -158,7 +165,8 @@ static void render_text_row_to_buffer(int text_row) {
 static void video_send_buffer(void) {
     const int buf_size = SCREEN_WIDTH * (CHAR_H + ROW_SPACING);
     volatile uint8_t *hw = (volatile uint8_t*)0x3ff1;
-    for (int i = 0; i < buf_size; ++i) {
+    int i;
+    for (i = 0; i < buf_size; ++i) {
         *hw = video_buffer[i];
         __asm__("nop");
     }
@@ -168,7 +176,8 @@ static void video_send_buffer(void) {
 // This function steps through each text row (28 rows) and streams the
 // corresponding (CHAR_H + ROW_SPACING) pixel rows across the screen.
 void video_send(void) {
-    for (int row = 0; row < TEXT_ROWS; ++row) {
+    int row;
+    for (row = 0; row < TEXT_ROWS; ++row) {
         render_text_row_to_buffer(row);
         video_send_buffer();
     }
